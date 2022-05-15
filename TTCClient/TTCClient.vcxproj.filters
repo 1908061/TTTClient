@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b59fed31-0b7d-47ac-94b0-a0817d47e5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging">
+      <UniqueIdentifier>{7485645e-340e-4390-a772-5bf9f66e512b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{a845b1ee-7e2f-434b-a77d-3c70055c7942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ConnectedPlayer">
+      <UniqueIdentifier>{b832af5b-8347-4891-94f1-83483660cf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lobby">
+      <UniqueIdentifier>{b8b8baa1-3e2a-4c8e-89b4-1b3939f448ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TicTacToe">
+      <UniqueIdentifier>{b048570a-713c-4a57-91a5-267ab41f9a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TicTacToeNetwork">
+      <UniqueIdentifier>{4dffaf56-90fc-4c1a-8eed-ec3e51438d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Accept">
+      <UniqueIdentifier>{e3892a52-3e29-4034-8754-78a4ce164c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Connect">
+      <UniqueIdentifier>{acd6abdc-7b89-4a86-8bae-71519503a817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Disconnect">
+      <UniqueIdentifier>{b360dd08-aa6c-4e52-8fbb-234c17dad941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\GameState">
+      <UniqueIdentifier>{b77d1f47-d65a-412c-a221-694a1411de0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Grid">
+      <UniqueIdentifier>{8fd1a83c-0828-43c9-bd1a-10eaed97cf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Kaboom">
+      <UniqueIdentifier>{53928ced-73f1-4231-865c-82c717b08f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Move">
+      <UniqueIdentifier>{06b338ba-00b7-46b3-b9ca-d53a2529adb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Reject">
+      <UniqueIdentifier>{978262d6-b7bf-46fe-be62-23d3367f206f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Request">
+      <UniqueIdentifier>{cf130c40-0cd2-4cbd-99de-706d41f861da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\ClientConnection">
+      <UniqueIdentifier>{867c2f6a-c775-4c56-a6a3-364702473c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Connection">
+      <UniqueIdentifier>{572ef83b-3318-46a3-b8c5-d78594091b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\ConnectionInstance">
+      <UniqueIdentifier>{f4fc8c56-f6c0-474d-a752-ba3fbc89e8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\INet4Address">
+      <UniqueIdentifier>{a5db4148-db57-4b03-80e6-27ab4220739c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Server">
+      <UniqueIdentifier>{c1b01e05-ffa1-4e79-98ea-2d67f3b85b24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TTCClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptMessage.cpp">
+      <Filter>Messaging\Accept</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConnection.cpp">
+      <Filter>Networking\ClientConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectedPlayer.cpp">
+      <Filter>Game\ConnectedPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Networking\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionInstance.cpp">
+      <Filter>Networking\ConnectionInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectMessage.cpp">
+      <Filter>Messaging\Connect</Filter>
+    </ClCompile>
+    <ClCompile Include="DisconnectMessage.cpp">
+      <Filter>Messaging\Disconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Messaging\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GridUpdate.cpp">
+      <Filter>Messaging\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="INet4Add.cpp">
+      <Filter>Networking\INet4Address</Filter>
+    </ClCompile>
+    <ClCompile Include="Kaboom.cpp">
+      <Filter>Messaging\Kaboom</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Game\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeMove.cpp">
+      <Filter>Messaging\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="RejectMessage.cpp">
+      <Filter>Messaging\Reject</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestUpdate.cpp">
+      <Filter>Messaging\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Game\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToeNetwork.cpp">
+      <Filter>Game\TicTacToeNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="TTTNetworkClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcceptMessage.h">
+      <Filter>Messaging\Accept</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnection.h">
+      <Filter>Networking\ClientConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectedPlayer.h">
+      <Filter>Game\ConnectedPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Networking\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionInstance.h">
+      <Filter>Networking\ConnectionInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectMessage.h">
+      <Filter>Messaging\Connect</Filter>
+    </ClInclude>
+    <ClInclude Include="DisconnectMessage.h">
+      <Filter>Messaging\Disconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Messaging\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GridUpdate.h">
+      <Filter>Messaging\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="INet4Add.h">
+      <Filter>Networking\INet4Address</Filter>
+    </ClInclude>
+    <ClInclude Include="Kaboom.h">
+      <Filter>Messaging\Kaboom</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Game\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeMove.h">
+      <Filter>Messaging\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="RejectMessage.h">
+      <Filter>Messaging\Reject</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestUpdate.h">
+      <Filter>Messaging\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Game\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToeNetwork.h">
+      <Filter>Game\TicTacToeNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="TTTNetworkClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
